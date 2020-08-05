@@ -1,22 +1,33 @@
 /* Navbar */
-div#nav-title {
+a#nav-vanilla-tweaks {
     font-size: 2em;
     float: left;
-    margin-left: .75em;
+    margin-left: .5em;
     margin-top: .15em;
-    color: #eeeeee;
+    color: #ebebeb;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: -.2em;
+}
+
+a#nav-unofficial {
+    font-size: 1.5;
+    float: left;
+    margin-left: .5em;
+    margin-top: 1.15em;
+    color: #ebebeb;
     font-weight: 600;
     text-align: center;
     text-decoration: none;
 }
 
 div#nav-title a {
-    color: #eeeeee;
+    color: #ebebeb;
     text-decoration: none;
 }
 
 /*Background*/
-
 nav {
     font-size: 1em;
     position: fixed;
@@ -28,12 +39,19 @@ nav {
     height: 3.16em;
 }
 
-
 nav>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.nav-dropbtn:hover,
+li.nav-right:hover {
+    background-color: #008800;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
 /*all in one row!*/
@@ -49,7 +67,7 @@ nav>ul>li {
 nav>ul li a,
 .nav-dropbtn {
     display: inline-block;
-    color: #eeeeee;
+    color: #ebebeb;
     font-weight: 600;
     text-align: center;
     padding: 1em 1.5em;
@@ -58,13 +76,8 @@ nav>ul li a,
 
 /*hover color*/
 .nav-left>a:hover {
-    background-color: #df691a;
+    background-color: #008800;
     border-bottom-right-radius: 1em;
-}
-
-.nav-right a:hover,
-.nav-right:hover {
-    background-color: #df691a;
 }
 
 /*hide dropdown by default*/
@@ -72,11 +85,14 @@ nav>ul li a,
     display: none;
     position: absolute;
     right: 0;
-    background-color: #df691a;
+    background-color: #3b3b3b;
     min-width: 10px;
     font-weight: 500;
     box-shadow: .25em .25em .5em 0 rgba(28, 28, 44, 0.2);
     overflow: hidden;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 /*dropdown list down direction*/
@@ -88,7 +104,7 @@ nav>ul li a,
 }
 
 .nav-dropdown-content a:hover {
-    background-color: #f3690d
+    background-color: #008800
 }
 
 /*alligning dropdown IMPORTANT*/
@@ -98,18 +114,13 @@ nav>ul li a,
 
 /*used to specify the current site*/
 #active-left {
-    background-color: #007700;
+    background-color: #008800;
     border-bottom-right-radius: 1em;
 }
 
 #active-right {
-    background-color: #007700;
+    background-color: #008800;
     border-bottom-left-radius: 1em;
-}
-
-/*used to indicate visited sites*/
-div.nav-dropdown-content>a:visited {
-    color: #1c1c2c;
 }
 
 
