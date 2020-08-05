@@ -7,3 +7,12 @@ body {
 body {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+header,
+main {
+    z-index: 5;
+}
+
+header {
+    margin-top: 1.5em;
+}

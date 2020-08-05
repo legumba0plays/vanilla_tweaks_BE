@@ -1,0 +1,220 @@
+@keyframes cloud_animation_1 {
+    0% {
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+        left: 700vw;
+    }
+}
+
+@keyframes cloud_animation_2 {
+    0% {
+        top: 0;
+        left: -100vw;
+    }
+
+    100% {
+        top: 0;
+        left: 600vw;
+    }
+}
+
+@keyframes cloud_animation_3 {
+    0% {
+        top: 0;
+        left: -200vw;
+    }
+
+    100% {
+        top: 0;
+        left: 500vw;
+    }
+}
+
+@keyframes cloud_animation_4 {
+    0% {
+        top: 0;
+        left: -300vw;
+    }
+
+    100% {
+        top: 0;
+        left: 400vw;
+    }
+}
+
+@keyframes cloud_animation_5 {
+    0% {
+        top: 0;
+        left: -400vw;
+    }
+
+    100% {
+        top: 0;
+        left: 300vw;
+    }
+}
+
+@keyframes cloud_animation_6 {
+    0% {
+        top: 0;
+        left: -500vw;
+    }
+
+    100% {
+        top: 0;
+        left: 200vw;
+    }
+}
+
+@keyframes cloud_animation_7 {
+    0% {
+        top: 0;
+        left: -600vw;
+    }
+
+    100% {
+        top: 0;
+        left: 100vw;
+    }
+}
+
+@keyframes cloud_animation_8 {
+    0% {
+        top: 0;
+        left: -700vw;
+    }
+
+    100% {
+        top: 0;
+        left: 0
+    }
+}
+
+@keyframes cloud_animation_9 {
+    0% {
+        top: 0;
+        left: -800vw;
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        top: 0;
+        left: -100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.cloud_fix {
+    z-index: -10;
+    position: fixed;
+    top: -15vh;
+    opacity: .9;
+}
+
+#cloud_1 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_1;
+    width: 100vw;
+}
+
+#cloud_2 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_2;
+    width: 100vw;
+}
+
+#cloud_3 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_3;
+    width: 100vw;
+}
+
+#cloud_4 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_4;
+    width: 100vw;
+}
+
+#cloud_5 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_5;
+    width: 100vw;
+}
+
+#cloud_6 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_6;
+    width: 100vw;
+}
+
+#cloud_7 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_7;
+    width: 100vw;
+}
+
+#cloud_8 {
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: auto;
+    position: relative;
+    animation-name: cloud_animation_8;
+    width: 100vw;
+}
