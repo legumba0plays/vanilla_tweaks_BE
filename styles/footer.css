@@ -1,4 +1,23 @@
+@keyframes sun {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 65vw;
+    }
+
+    75% {
+        left: -65vw;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
 .footer {
+    z-index: 10;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -12,6 +31,7 @@
     left: 50%;
     bottom: 15vh;
     height: 40%;
+    z-index: -30;
 }
 
 #sun_container {
@@ -24,9 +44,129 @@
 }
 
 #sun {
+    animation-name: sun;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
     display: block;
     margin: 0 auto;
     position: relative;
     height: 50vh;
     width: auto;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+}
+
+.footer-text {
+    bottom: 0;
+}
+
+.footer-logos {
+    bottom: 0;
+
+}
+
+.social-logo {
+    text-align: center;
+    bottom: 0;
+    height: 3em;
+    width: 3em;
+}
+
+
+
+
+
+
+
+#Twitter-logo-image {
+    padding-right: 1em;
+}
+
+.footer-logos a {
+    text-decoration: none;
+}
+
+
+div.footer-lightbox#Youtube {
+    bottom: 3.5em;
+    right: 8em;
+}
+
+div.footer-lightbox#Discord {
+    bottom: 3.5em;
+    right: 5em;
+}
+
+div.footer-lightbox#Twitter {
+    bottom: 3.5em;
+    right: 2em;
+}
+
+
+.footer-lightbox {
+    display: table;
+    opacity: 0;
+    z-index: -100;
+    transition-duration: .2s;
+    position: fixed;
+    width: auto;
+    height: auto;
+    background: #3b3b3b;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.footer-lightbox:target {
+    opacity: 1;
+    z-index: 100;
+}
+
+.footer-lightbox-content {
+    color: #ebebeb;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1em;
+}
+
+.footer-lightbox-content a {
+    color: #74ff74;
+    text-decoration: none;
+}
+
+.footer-lightbox-content img {
+    width: 1.5em;
+    height: auto;
+    margin-bottom: -.4em;
+}
+
+.footer-close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: royalblue;
+}
+
+.footer-table td[colspan="2"]:first-child {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.footer-table td[colspan="3"]:first-child {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.footer-table td:nth-child(2) {
+    padding-left: 2em;
+}
+
+.footer-table td:nth-child(3) {
+    padding-left: 2em;
 }

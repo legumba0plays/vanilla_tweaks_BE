@@ -1,11 +1,82 @@
-@media only screen and (max-width: 511px) {
-    nav {
+@media only screen and (max-width:411px) {
+
+    nav,
+    header,
+    main {
         font-size: 60%;
+    }
+
+    .VT-img-container img {
+        width: 40%;
+    }
+
+    .nav-unofficil-port {
+        opacity: 0;
     }
 }
 
-@media only screen and (min-width: 511px) {
-    nav {
+@media only screen and (min-width:411px) {
+
+    nav,
+    header,
+    main {
+        font-size: 60%;
+    }
+
+    .VT-img-container img {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+
+    nav,
+    header,
+    main {
         font-size: 80%;
+    }
+
+    .VT-img-container img {
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    nav,
+    header,
+    main {
+        font-size: 100%;
+    }
+
+    .VT-img-container img {
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    nav,
+    header,
+    main {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+
+    nav,
+    header,
+    main {
+        font-size: 300%;
+    }
+}
+
+@media only screen and (min-width: 4000px) {
+
+    nav,
+    header,
+    main {
+        font-size: 400%;
     }
 }
