@@ -10,7 +10,6 @@
     }
 
     100% {
-        opacity: 1;
         top: 0;
         left: 700vw;
     }
@@ -18,8 +17,13 @@
 
 @keyframes cloud_animation_2 {
     0% {
-        top: 0;
+        top: -100;
         left: -100vw;
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
     }
 
     100% {
@@ -32,7 +36,13 @@
     0% {
         top: 0;
         left: -200vw;
+        opacity: 0;
     }
+
+    1% {
+        opacity: 1;
+    }
+
 
     100% {
         top: 0;
@@ -136,7 +146,7 @@
     z-index: -10;
     position: fixed;
     top: -15vh;
-    opacity: .9;
+    opacity: .8;
 }
 
 #cloud_1 {
@@ -146,7 +156,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_1;
-    width: 100vw;
 }
 
 #cloud_2 {
@@ -156,7 +165,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_2;
-    width: 100vw;
 }
 
 #cloud_3 {
@@ -166,7 +174,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_3;
-    width: 100vw;
 }
 
 #cloud_4 {
@@ -176,7 +183,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_4;
-    width: 100vw;
 }
 
 #cloud_5 {
@@ -186,7 +192,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_5;
-    width: 100vw;
 }
 
 #cloud_6 {
@@ -196,7 +201,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_6;
-    width: 100vw;
 }
 
 #cloud_7 {
@@ -206,7 +210,6 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_7;
-    width: 100vw;
 }
 
 #cloud_8 {
@@ -216,5 +219,4 @@
     height: auto;
     position: relative;
     animation-name: cloud_animation_8;
-    width: 100vw;
 }
