@@ -117,6 +117,7 @@ div.footer-lightbox#Twitter {
     position: fixed;
     width: auto;
     height: auto;
+    max-width: 99%;
     background: #3b3b3b;
     border-bottom-left-radius: 1em;
     border-top-left-radius: 1em;

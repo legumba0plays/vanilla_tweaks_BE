@@ -22,6 +22,10 @@ a#nav-unofficial {
     text-decoration: none;
 }
 
+.nav-unofficial-port {
+    position: fixed;
+}
+
 div#nav-title a {
     color: #ebebeb;
     text-decoration: none;
