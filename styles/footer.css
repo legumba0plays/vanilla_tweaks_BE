@@ -40,7 +40,7 @@
     width: 100%;
     position: fixed;
     top: -5vh;
-    z-index: -20;
+    z-index: -40;
 }
 
 #sun {
@@ -92,6 +92,11 @@ footer {
     text-decoration: none;
 }
 
+
+div.footer-lightbox#MoreInfo {
+    bottom: 3.5em;
+    right: 11em;
+}
 
 div.footer-lightbox#Youtube {
     bottom: 3.5em;
