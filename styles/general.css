@@ -33,12 +33,6 @@ main {
 /*Main*/
 main {
     margin-top: 5em;
-    margin-left: .5em;
-    margin-right: .5em;
-}
-
-.content {
-    width: 100%;
 }
 
 .table-header {
@@ -50,9 +44,7 @@ main {
     color: #ebebeb;
 }
 
-.VT-img-container {
-    width: 100%;
-}
+.VT-img-container {}
 
 .VT-img-container img {
     display: block;
